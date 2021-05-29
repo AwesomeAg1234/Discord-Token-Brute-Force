@@ -20,7 +20,7 @@ from plyer import notification
 
 os.system(f'title Discord Token Brute force By Naoy ^| Version : 1.2')
 
-TOKEN = "NzUyNDAxMDUwMzUwMTI1MDU3.X_dMNA.3BqGXA0fZ6YMMLKxSwfT059QG1k"
+TOKEN = "no"
 os.system('cls')
 
 def notifyMe(title, message):
